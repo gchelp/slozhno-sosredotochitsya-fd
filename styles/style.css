@@ -127,6 +127,7 @@
 }
 
 .page {
+  background-image: var(--bg-image);
   background-color: var(--bg-color);
   background-attachment: fixed;
   background-size: cover;
