@@ -8,7 +8,6 @@
   --accent-text-color: #000028;
   --focus-color: #DB00FF;
   --text-color: #F1B2CE;
-  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
 }
 
@@ -22,7 +21,6 @@
     --accent-text-color: #000028;
     --focus-color: #DB00FF;
     --text-color: #F1B2CE;
-    --bg-image: url(../images/cover-image-dark.png);
     --bg-color: #000028;
   }
 }

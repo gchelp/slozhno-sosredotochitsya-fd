@@ -14,8 +14,8 @@
   box-sizing: border-box;
   top: var(--angle-position);
   right: var(--angle-position);
-  position: absolute; 
-  width: 25.04px; 
+  position: absolute;
+  width: 25.04px;
   height: 25px; 
   border-width: 1px 1px 0px 0px;
   border-style: solid;
@@ -38,7 +38,7 @@
 .rec {
   position: absolute; 
   font-family: var(--font-family);
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 18px; 
   text-align: center;
   color: var(--accent-color);
@@ -127,7 +127,6 @@
 }
 
 .page {
-  background-image: var(--bg-image);
   background-color: var(--bg-color);
   background-attachment: fixed;
   background-size: cover;
@@ -367,5 +366,5 @@
   .main__title__2 {
     margin: 0px;
   }
-  
+
 }
