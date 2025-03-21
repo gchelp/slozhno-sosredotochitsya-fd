@@ -18,7 +18,7 @@
   width: 25.04px; 
   height: 25px; 
   border-width: 1px 1px 0px 0px;
-  border-style: solid; 
+  border-style: solid;
   border-color: var(--decorated-zone-color);
 }
 
@@ -95,7 +95,7 @@
   outline: 1px solid var(--button-color-transparent);
 }
 
-.header__theme-menu-button_active  {
+.header__theme-menu-button_active {
   outline: 1px solid var(--button-color);
   pointer-events: none;
 }
@@ -128,6 +128,7 @@
 
 .page {
   background-image: var(--bg-image);
+  background-color: var(--bg-color);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -262,7 +263,7 @@
     padding-inline-end: 20px;
   }
 
-  .rec  {
+  .rec {
     top: 21px;
     right: 29px;
   }
