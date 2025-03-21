@@ -12,17 +12,3 @@
   --bg-image: url(../images/cover-image-dark.png);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root.theme-auto {
-    --accent-color: #ff0070;
-    --main-title-color: #ff0070;
-    --decorated-zone-color: #ff0070;
-    --button-color: #ff0070;
-    --button-color-transparent: rgba(255, 0, 112, 0.4);
-    --accent-text-color: #000028;
-    --focus-color: #DB00FF;
-    --text-color: #F1B2CE;
-    --bg-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png);
-  }
-}

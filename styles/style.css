@@ -173,7 +173,6 @@
   font-size: 18px;
   line-height: 23.4px;
   color: var(--accent-text-color);
-  min-height: 23px;
 }
 
 .article {
@@ -202,7 +201,7 @@
   outline: 1px solid var(--text-color);
 }
 
-.article__title__3 {
+.article__title__advices {
   margin-block-end: 10px;
 }
 
@@ -282,15 +281,15 @@
     padding: 0px 20px;
   }
 
-  .section__1-3 {
+  .section__same-style {
     grid-template-columns: 1fr 2fr;
   }
 
-  .article__block__1-3 {
+  .article__block__same-style{
     grid-column: 2;
   }
 
-  .main__title__2 {
+  .main__title__concentration {
     margin-right: 512px;
   }
 
@@ -352,19 +351,19 @@
     margin-inline-start: 15px;
   }
 
-  .article__block__1-3 {
+  .article__block__same-style {
     width: 649px;
   }
 
-  .section__2 {
+  .section__concentration {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .article__block__2 {
+  .article__block__concentration {
     grid-row: 2;
   }
 
-  .main__title__2 {
+  .main__title__concentration {
     margin: 0px;
   }
 
