@@ -1,1 +1,0 @@
-https://github.com/gchelp/slozhno-sosredotochitsya-fd.git
