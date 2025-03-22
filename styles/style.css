@@ -37,7 +37,7 @@
 
 .rec {
   position: absolute; 
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-weight: 400;
   font-size: 18px; 
   text-align: center;
@@ -70,7 +70,7 @@
 }
 
 .header__theme-menu-item {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -101,7 +101,7 @@
 }
 
 .header__title {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 700;
   font-size: var(--title-size);
@@ -112,7 +112,7 @@
 
 .header__text {
   align-self: start;
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -150,6 +150,8 @@
   gap: 20px;
   padding: 0px 10px;
   overflow: auto;
+  align-content: center;
+  justify-content: center;
 }
 
 .article__block {
@@ -159,7 +161,7 @@
 }
 
 .main__title {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -167,7 +169,7 @@
 }
 
 .article__title {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -176,7 +178,7 @@
 }
 
 .article {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -206,7 +208,7 @@
 }
 
 .sub__title {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -215,7 +217,7 @@
 }
 
 .images__title {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -246,7 +248,7 @@
 }
 
 .footer__title {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-style: normal;
   font-weight: 700;
   font-size: var(--title-size);
@@ -352,19 +354,19 @@
   }
 
   .article__block__same-style {
-    width: 649px;
+    min-width: 649px;
   }
 
   .section__concentration {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .article__block__concentration {
-    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    align-items: start;
   }
 
   .main__title__concentration {
     margin: 0px;
+    margin-inline-end: 689px;
+    grid-column: 1 / -1;
   }
 
 }
